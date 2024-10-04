@@ -1,7 +1,7 @@
 import random
 
 def generate_data_stream(num_points=100):
-    """Generates a simulated data stream with anomalies."""
+    # Generates a simulated data stream with anomalies.
     data_stream = []
     for _ in range(num_points):
         # Simulate normal values
